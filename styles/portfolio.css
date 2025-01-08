@@ -24,10 +24,24 @@ nav{
     font-size: 45px;
 }
 /* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 .text-primary{
 color: #FD6E0A;
 
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
 nav ul li{
     list-style: none;
     margin-right: 50px;
@@ -82,4 +96,22 @@ width: 580px;
    background-image: url(../images/developer.png), url('../images/header_bg.png') ; 
    background-repeat: no-repeat;
    background-position: top left, bottom right;
+}
+/* about */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+}
+/* main style */
+main{
+    max-width:1140px;
+    margin: 0 auto;
+}
+.item-description{font-weight: 600;
+    
+}
+.about-itmes{
+    display: flex;
+    justify-content: space-around;
 }
